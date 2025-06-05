@@ -1,7 +1,15 @@
+/* Apply box-sizing globally to prevent overflow due to padding/borders */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
+html, body {
+  overflow-x: hidden;
+}
 
-
-
+.dashboard-container {
+  overflow-x: hidden;
+}
 
 
 
